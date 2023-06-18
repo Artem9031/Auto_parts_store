@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tag
+  -->
+  <title>AutoParts Central</title>
+  <meta name="title" content="Woodex - Get Quality Furniture">
+  <meta name="description" content="This is an eCommerce html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.jpg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <!-- <link rel="preload" as="image" href="./assets/images/hero-product-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-product-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-product-3.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-product-4.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-product-5.jpg"> -->
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+      <a href="#home" class="logo">AutoParts Central</a>
+      <div class="header-action">
+        <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+      </div>
+
+    </div>
+  </header>
+
+  <!-- 
+    - #SIDEBAR
+  -->
+
+  <div class="sidebar" data-navbar>
+
+    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+      <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+    </button>
+
+    <nav class="navbar">
+      <ul class="navbar-list">
+
+        <li class="navbar-item">
+          <a href="#home" class="navbar-link" data-nav-link>Home</a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="#about" class="navbar-link" data-nav-link>About</a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="#product" class="navbar-link" data-nav-link>Product</a>
+        </li>
+
+      </ul>
+    </nav>
+
+    <ul class="contact-list">
+
+      <li>
+        <p class="contact-list-title">Contact Us</p>
+      </li>
+
+      <li class="contact-item">
+        <address class="address">
+          Pushkina street, 83a, Poltava, Poltava region, 36000
+        </address>
+      </li>
+
+      <li class="contact-item">
+        <a href="http://www.polytechnic.poltava.ua/" class="contact-link">Support Center</a>
+      </li>
+
+      <li class="contact-item">
+        <a href="tel:0532272952" class="contact-link">0532272952</a>
+      </li>
+
+    </ul>
+
+  </div>
+
+  <div class="overlay" data-overlay data-nav-toggler></div>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="home">
+        <div class="container">
+
+          <ul class="hero-list" >
+
+            <li>
+              <div class="hero-card">
+
+                <figure class="card-banner img-holder" style="--width: 285; --height: 396;">
+                  <img src="./assets/images/car-headlights.jpg" width="285" height="396" alt="Art Deco Home"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3>
+                    <a href="#product" data-filter-btn="accessory" class="card-title" id="lights">Фари</a>
+                  </h3>
+                  <p class="card-text" id="lights2">Освітлення</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="colspan-2">
+              <div class="hero-card">
+
+                <figure class="card-banner img-holder" style="--width: 568; --height: 389;">
+                  <img src="./assets/images/car-audio-controls.jpg" width="568" height="389" alt="Helen Chair"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3>
+                    <a href="#product" data-filter-btn="decoration"class="card-title" id="electronics">Електроніка</a>
+                  </h3>
+
+                  <p class="card-text" id="electronics2">Аудіо та електроніка</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="hero-card">
+
+                <figure class="card-banner img-holder" style="--width: 285; --height: 396;">
+                  <img src="./assets/images/rearview-mirror.jpg" width="285" height="396" alt="Vase Of Flowers"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3>
+                    <a href="#product" data-filter-btn="accessory" class="card-title">Зеркала</a>
+                  </h3>
+
+                  <p class="card-text">Кузовні запчастини</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="colspan-2">
+              <div class="hero-card">
+
+                <figure class="card-banner img-holder" style="--width: 580; --height: 213;">
+                  <img src="./assets/images/car-wheel.jpg" width="580" height="213" alt="Wood Eggs" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3>
+                    <a href="#product" data-filter-btn="furniture" class="card-title" id="Discs">Диски</a>
+                  </h3>
+                  <p class="card-text" id="Discs2">Шини та диски</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="colspan-2">
+              <div class="hero-card">
+
+                <figure class="card-banner img-holder" style="--width: 580; --height: 213;">
+                  <img src="./assets/images/windshield-wiper.jpg" width="580" height="213" alt="Table Wood Pine"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3>
+                    <a href="#product" data-filter-btn="accessory" class="card-title">Двірники</a>
+                  </h3>
+
+                  <p class="card-text">Кузовні запчастини</p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <p class="section-text">
+            Унікальне місце, де автовласники та автомеханіки можуть знайти все необхідне для своїх автомобілів.
+            Це спеціалізоване підприємство, що пропонує широкий асортимент автозапчастин, аксесуарів та інструментів
+            для ремонту та обслуговування автомобілів.
+            Магазин може мати різні відділи, присвячені різним категоріям автозапчастин, таким як двигун, трансмісія,
+            підвіска, гальмівна система, система охолодження та електрика. Це допомагає клієнтам легко знайти потрібні
+            деталі та зробити свій вибір.
+          </p>
+
+          <!-- <div class="about-card">
+            <figure class="card-banner img-holder" style="--width: 1170; --height: 450;">
+              <img src="./assets/images/about-banner.jpg" width="1170" height="450" loading="lazy" alt="Woodex promo"
+                class="img-cover">
+            </figure>
+
+            <button class="play-btn" aria-label="play video">
+              <ion-icon name="play-circle-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div> -->
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PRODUCTS
+      -->
+
+      <section class="section product" id="product" aria-label="product">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Популярна продукція</h2>
+
+            <ul class="filter-btn-list">
+
+              <li class="filter-btn-item">
+                <button class="filter-btn active" data-filter-btn="all">Вся продукція</button>
+              </li>
+
+              <li class="filter-btn-item">
+                <button class="filter-btn" data-filter-btn="accessory">Системи Видимості</button> <!--Фари-->
+              </li>
+
+              <li class="filter-btn-item">
+                <button class="filter-btn" data-filter-btn="decoration">Електроніка</button> <!--Електроніка-->
+              </li>
+
+              <li class="filter-btn-item">
+                <button class="filter-btn" data-filter-btn="furniture">Колеса</button> <!--Дворніки-->
+              </li>
+
+            </ul>
+          </div>
+
+          <ul class="grid-list product-list" data-filter="all">
+
+            <li class="furniture">
+              <div class="product-card">
+
+                <a class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="./assets/images/subaru.jpg" width="300" height="300" loading="lazy"
+                    alt="Animi Dolor Pariatur" class="img-cover">
+
+                  <ul class="card-action-list">
+
+                  </ul>
+
+                  <ul class="badge-list">
+
+                    <li>
+                      <div class="badge orange">Sale</div>
+                    </li>
+
+                    <li>
+                      <div class="badge cyan">-10%</div>
+                    </li>
+
+                  </ul>
+                  <div class="card-badge">Subaru Disk</div>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">Диски "Subaru"</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <!-- <del class="del">$19.00</del> -->
+
+                    <data class="price" value="10">$50.00</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="furniture">
+              <div class="product-card">
+
+                <a class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="./assets/images/jeep.jpg" width="300" height="300" loading="lazy" alt="Art Deco Home"
+                    class="img-cover">
+
+                  <ul class="card-action-list">
+                  </ul>
+
+                  <div class="card-badge">Jeep Disk</div>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">Диски "Jeep"</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="30">45.00</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="accessory">
+              <div class="product-card">
+
+                <a class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="./assets/images/fary.jpg" width="300" height="300" loading="lazy"
+                    alt="Artificial potted plant" class="img-cover">
+
+                  <ul class="card-action-list">
+                  </ul>
+                  <div class="card-badge">LED Headlights</div>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">LED фари</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="40">$200.00</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="accessory">
+              <div class="product-card">
+
+                <a class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="./assets/images/fary2.jpg" width="300" height="300" loading="lazy" alt="Dark Green Jug"
+                    class="img-cover">
+
+                  <ul class="card-action-list">
+                  </ul>
+                  <div class="card-badge">Ford Headlights</div>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">Фари "Ford"</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="17.10">$250.00</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="decoration">
+              <div class="product-card">
+
+                <a class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="./assets/images/car-dvr-isolated.jpg" width="300" height="300" loading="lazy"
+                    alt="Drinking Glasses" class="img-cover">
+
+                  <ul class="card-action-list">
+
+                  </ul>
+                  <div class="card-badge">Video Recorder</div>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">Відеореєстратор</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="21">$21.00</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="decoration">
+              <div class="product-card">
+
+                <a class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="./assets/images/GPS-navigator.jpg" width="300" height="300" loading="lazy" alt="Helen Chair"
+                    class="img-cover">
+
+                  <ul class="card-action-list">
+
+                  </ul>
+                  <div class="card-badge">Navigator</div>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">Навігатор</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="69.50">$69.50</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="accessory">
+              <div class="product-card">
+
+                <a class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="./assets/images/side-mirror.jpg" width="300" height="300" loading="lazy"
+                    alt="High Quality Glass Bottle" class="img-cover">
+
+                  <ul class="card-action-list">
+
+                  </ul>
+                  <div class="card-badge">Side View Mirror</div>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">Зеркало бокового виду</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="30.10">$30.10</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="accessory">
+              <div class="product-card">
+
+                <a class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="./assets/images/stock.jpg" width="300" height="300" loading="lazy"
+                    alt="Living Room & Bedroom Lights" class="img-cover">
+
+                  <ul class="card-action-list">
+                  </ul>
+                  <div class="card-badge">Side View Mirror</div>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">Зеркало бокового виду</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="45">$45.00</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="accessory">
+              <div class="product-card">
+
+                <a class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="./assets/images/cleaning-water-drops.jpg" width="300" height="300" loading="lazy"
+                    alt="Nancy Chair" class="img-cover">
+
+                  <ul class="card-action-list">
+                  </ul>
+                  <div class="card-badge">Wipers</div>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">Двірники</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="90">$90.00</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="accessory">
+              <div class="product-card">
+
+                <a class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="./assets/images/patterns-textures.jpg" width="300" height="300" loading="lazy"
+                    alt="Nancy Chair" class="img-cover">
+
+                  <ul class="card-action-list">
+
+                  </ul>
+                  <div class="card-badge">Wipers</div>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">Двірники</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="40">$40.00</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="furniture">
+
+            </li>
+
+          </ul>
+        </div>
+      </section>
+
+    <!-- 
+    - #FOOTER
+    -->
+
+      <footer class="footer">
+        <div class="container">
+
+          <div class="footer-top section">
+
+            <div class="footer-brand">
+
+              <a href="#" class="logo">AutoParts Central</a>
+
+              <ul>
+
+                <li class="footer-list-item">
+                  <ion-icon name="location-sharp" aria-hidden="true"></ion-icon>
+
+                  <address class="address">
+                    AutoParts Central, Полтава, Україна 2023
+                  </address>
+                </li>
+
+                <li class="footer-list-item">
+                  <ion-icon name="call-sharp" aria-hidden="true"></ion-icon>
+
+                  <a href="tel:+1234567890" class="footer-link">+3806667890</a>
+                </li>
+
+                <li>
+                  <ul class="social-list">
+
+                    <li>
+                      <a href="#" class="social-link">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="social-link">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="social-link">
+                        <ion-icon name="logo-tumblr"></ion-icon>
+                      </a>
+                    </li>
+
+                  </ul>
+                </li>
+
+              </ul>
+
+            </div>
+
+            <ul class="footer-list">
+
+              <li>
+                <p class="footer-list-title">Довідка та інформація</p>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Допоможіть і зв'яжіться з нами</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Повернення та відшкодування</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Інтернет-магазини</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Правила та умови</a>
+              </li>
+
+            </ul>
+
+            <ul class="footer-list">
+
+              <li>
+                <p class="footer-list-title">Про нас</p>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Про нас</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Що ми робимо</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Сторінка поширених запитань</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Зв'яжіться з нами</a>
+              </li>
+
+            </ul>
+
+            <div class="footer-list">
+
+              <p class="footer-list-title">Підписатися на новини</p>
+
+              <form action="" class="footer-form">
+                <input type="email" name="email_address" placeholder="Ваша електронна пошта" required
+                  class="email-field">
+
+                <button type="submit" class="footer-form-btn">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+              </form>
+
+              <div class="wrapper">
+
+                <a href="#" class="footer-link">Термін і умови</a>
+                <a href="#" class="footer-link">Політика</a>
+                <a href="#" class="footer-link">Карта</a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="footer-bottom">
+
+            <p class="copyright">
+              &copy; 2023</a>.
+            </p>
+
+          </div>
+
+        </div>
+      </footer>
+
+
+
+
+
+      <!-- 
+    - #BACK TO TOP
+  -->
+
+      <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+      </a>
+
+
+
+
+
+      <!-- 
+    - custom js link
+  -->
+      <script src="./assets/js/script.js" defer></script>
+
+      <!-- 
+    - ionicon link
+  -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

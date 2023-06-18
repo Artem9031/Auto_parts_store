@@ -1024,7 +1024,7 @@ a.card-meta-text:is(:hover, :focus) { color: var(--tan-crayola); }
    */
 
   .about .section-text {
-    max-width: 85ch;
+    max-width: 120ch;
     margin-inline: auto;
   }
 
